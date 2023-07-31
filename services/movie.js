@@ -10,8 +10,8 @@ const options = {
 const fetchMovieApi = async (pathName, query = "") => {
   try {
     const response = await fetch(`${API_URL}${pathName}?api_key=${process.env.API_KEY}&${query}`, options);
-
-    return response.json();
+    const data = await response.json();
+    return data;
   } catch (error) {
     throw new Error(error);
   }
