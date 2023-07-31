@@ -4,9 +4,6 @@ body {
   background-color: #000;
 }
 
-div[data-nextjs-scroll-focus-boundary] {
-  height: 100%;
-}
 
 .container {
   display: grid;
@@ -20,4 +17,8 @@ div[data-nextjs-scroll-focus-boundary] {
 
 .container > .fluid {
   grid-column: 1 / -1;
+}
+
+.vh100 {
+  height:100vh ;
 }

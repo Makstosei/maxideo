@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 function FeatureMovieLoading() {
   return (
-    <div style={{ height: 278 }} className={styles.movieWrapper}>
+    <div style={{ height: 422 }} className={styles.movieWrapper}>
       <Loading />
     </div>
   );

@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="tr">
-      <body className={`container ${inter.className}`}>
+      <body className={`vh100 container ${inter.className}`}>
         <Header />
         <main>{children}</main>
         <Footer></Footer>

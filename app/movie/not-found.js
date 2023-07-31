@@ -12,7 +12,7 @@ function Movie404() {
         flexDirection: "column",
       }}
     >
-      <h1>We couldn&apos;t find the movie you looking for!</h1>
+      <h1>xxxaWe couldn&apos;t find the movie you looking for!</h1>
       <Link href="/" style={{ textDecoration: "underline", fontSize: 20, marginTop: 8 }}>
         Go home
       </Link>
