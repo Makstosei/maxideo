@@ -1,8 +1,8 @@
 import React from "react";
 import { notFound } from "next/navigation";
 
-import MovieContainer from "@/containers/movie";
-import Movies from "@/mocks/movies.json";
+import MovieContainer from "../../../containers/movie";
+import Movies from "../../../mocks/movies.json";
 
 async function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import HomeContainer from "@/containers/home";
-import Movies from "@/mocks/movies.json";
+import HomeContainer from "../../containers/home";
+import Movies from "../../mocks/movies.json";
 
 async function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
