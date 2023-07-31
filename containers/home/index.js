@@ -8,7 +8,7 @@ function HomeContainer({ categories = [], topRated = [], popularMovies = [], sel
   return (
     <div>
       <FeaturedMovie movie={topRated?.[Math.floor(Math.random() * topRated.length)]} />
-      <Categories categories={categories.slice(1, 5)} />
+      <Categories categories={categories.slice(0, 5)} />
 
       {!!selectedCategory.movies.length && (
         <MoviesSection title={categories.find((id) => `${id}` === selectedCategory.id)?.name} movies={selectedCategory.movies} />
